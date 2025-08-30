@@ -1,147 +1,105 @@
+# EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
 
-# Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE: 28-08-2025                                                                        
-### REGISTER NUMBER : 212223060101
- 
-### Aim:
-To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
-### AI Tools required:
+## AIM
+To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
 
-### Explanation:
-Define the Use Case:
-Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
-Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
-Create a Set of Prompts:
-Prepare a uniform set of prompts that align with the chosen use case.
-Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
-Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
-Run the Experiment on Each AI Platform:
-Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
-Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
-Record response times, ease of interaction with the platform, and any technical issues encountered.
-Evaluate Response Quality:
-Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
-Compare Performance:
-Compare the collected data to identify differences in performance across platforms.
-Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
-Deliverables:
-A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
-A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
+## Scenario:
 
-## Output:
+### Step 1:
 
-## Prompt:
-Step 1:
 Summarize the following 500-word article on “The Basics of Blockchain Technology” in 120–150 words for undergraduate students. Keep it clear and beginner-friendly.
 
-Step 2 (Feedback):    
+
+Blockchain is a digital system that records transactions securely and transparently without needing a central authority like a bank. It is made of blocks of data linked in a chain, where each block contains information and is protected by cryptography. Once data is added, it cannot be altered, making blockchain highly secure and trustworthy. This decentralized network ensures all participants have the same copy of information, reducing fraud and errors. While it was first developed for Bitcoin, blockchain is now used in many fields. Its benefits include security, transparency, and efficiency, though challenges like high energy use and scalability remain. Overall, blockchain is a foundation for new digital innovations and helps people exchange information or value in a reliable way.
+
+
+### Step 2 (Feedback):
+
 Please revise the summary to make it even simpler and include at least two real-world examples of blockchain applications.
 
-## Article: 
-
-## 🔗 The Basics of Blockchain Technology
-
-In recent years, blockchain technology has emerged as a revolutionary force across industries—from finance and healthcare to supply chain and entertainment. But what exactly is blockchain, and why is it considered so transformative?
-
-### 🧱 What Is Blockchain?
-
-At its core, blockchain is a decentralized digital ledger. Imagine a notebook that records transactions, but instead of being stored in one place, it's duplicated across a network of computers. Each page in this notebook is called a "block," and these blocks are linked together in chronological order—forming a "chain."
-
-Once data is recorded in a block, it’s nearly impossible to alter without changing every subsequent block, which makes blockchain incredibly secure and tamper-resistant.
-
-### 🌐 How Does It Work?
-
-Here’s a simplified breakdown of how blockchain operates:
-
-- **Transaction Initiation**: A user requests a transaction, such as sending cryptocurrency or updating a digital record.
-- **Verification**: The transaction is broadcast to a network of computers (called nodes), which validate it using consensus algorithms.
-- **Block Creation**: Once verified, the transaction is grouped with others into a new block.
-- **Chain Addition**: This block is added to the existing blockchain, becoming a permanent part of the ledger.
-- **Completion**: The transaction is complete, and the updated blockchain is visible to all participants.
-
-### 🔒 Key Features
-
-Blockchain’s appeal lies in several powerful features:
-
-- **Decentralization**: No single authority controls the data. This reduces the risk of corruption or manipulation.
-- **Transparency**: All participants can view the ledger, promoting trust and accountability.
-- **Security**: Cryptographic techniques protect data, and consensus mechanisms prevent unauthorized changes.
-- **Immutability**: Once data is added, it cannot be changed—ideal for record-keeping and auditing.
-
-### 💰 Popular Use Cases
-
-The most well-known application of blockchain is cryptocurrency, like Bitcoin and Ethereum. But its potential goes far beyond digital money:
-
-- **Supply Chain Management**: Track goods from origin to destination with full transparency.
-- **Healthcare**: Securely store and share patient records across providers.
-- **Voting Systems**: Enable tamper-proof digital voting with verifiable results.
-- **Smart Contracts**: Self-executing agreements coded directly into the blockchain.
-
-### ⚙️ Challenges and Limitations
-
-Despite its promise, blockchain faces hurdles:
-
-- **Scalability**: Processing large volumes of transactions can be slow and resource-intensive.
-- **Energy Consumption**: Some blockchains, especially those using proof-of-work, consume significant energy.
-- **Regulatory Uncertainty**: Governments are still figuring out how to regulate blockchain-based systems.
-
-### 🚀 The Road Ahead
-
-Blockchain is still evolving, with innovations like proof-of-stake, layer-2 solutions, and interoperability protocols aiming to address current limitations. As adoption grows, blockchain could reshape how we exchange value, verify identity, and build trust in the digital age.
+Blockchain is like a digital notebook shared by many people, where everyone can see the same information, but no one can secretly change it. It stores data in blocks connected in a chain, making it secure and transparent. This system removes the need for middlemen, like banks, and helps people trust each other online. For example, Bitcoin uses blockchain to transfer money safely without banks. Another example is supply chain tracking, where companies use blockchain to check if products like medicines or food are genuine. While blockchain is powerful, it still faces issues like high energy use and slow transactions. Still, it is an important technology shaping the future of finance, trade, and record-keeping.
 
 
-## Comparison: 
+### The Basics of Blockchain Technology
 
-| **Criteria**            | **ChatGPT**                                                                                             | **Gemini**                                                                                       | **Claude**                                                                                        | **Meta**                                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Accuracy**            | High – Explains blockchain mechanics, features, challenges, and future innovations like proof-of-stake. | Good – Covers basics (blocks, chain, decentralization) but skips consensus and security details. | Very high – Precise, includes consensus, immutability, features, challenges, and applications.    | High – Accurate on process, features, challenges, and use cases, but lighter on innovations. |
-| **Clarity**             | Very clear – Uses analogy of a “digital notebook” and multiple real-world examples.                     | Clear – Beginner-friendly and simple, but minimal in detail.                                     | Clear – Uses analogies effectively, adds real-world cases (NFTs, Walmart), though slightly dense. | Clear – Well-structured, supported by examples such as Walmart and Zug voting.               |
-| **Depth**               | Balanced – Covers process, features, challenges, and innovations.                                       | Shallow – Omits details on consensus, cryptography, and future directions.                       | Strong – Detailed explanation of process, features, challenges, and modern applications.          | Moderate – Explains features, challenges, and examples but less focus on future innovations. |
-| **Relevance**           | High – Focused on blockchain basics, suitable for undergraduate context.                                | High – Stays on topic but oversimplified for academic purposes.                                  | High – Strong focus, practical applications included without drifting off-topic.                  | High – Focused on blockchain with relevant real-world examples.                              |
-| **Intuitive Interface** | Very user-friendly – Step-by-step structure, organized formatting, easy to follow.                      | Simple – Clean and concise, but sometimes too minimal and lacking context cues.                  | Structured – Logical and comprehensive, though slightly text-heavy.                               | Clear – Straightforward layout, consistent but less flexible in interaction.                 |
+## ChatGPT:
 
-## Visualisation using radar chart:
+Blockchain is a digital system that records and checks information in a secure and transparent way. Unlike traditional databases managed by one company, blockchain is decentralized, meaning data is stored across many computers. Information is grouped into “blocks,” and each block is connected to the previous one, forming a permanent “chain.” Once data is added, it cannot be easily changed, which makes the system reliable. Blockchain uses cryptography (secret codes) and consensus (agreement among computers) to confirm transactions.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/13f8b600-2752-4f7d-97ec-901d1cddad2d" />
+<img width="309" height="163" alt="image" src="https://github.com/user-attachments/assets/0931788a-f27d-42dc-a659-0fe1206944fd" />
 
-## Strenght and Weekeness:
+Transactions are validated using consensus mechanisms such as Proof of Work or Proof of Stake, ensuring accuracy without needing a central authority. Beyond finance, blockchain powers smart contracts, which are self-executing agreements that trigger automatically once conditions are met—for example, releasing payment once goods are delivered.
 
-### ChatGPT
+## Gemini:
+Blockchain is like a digital notebook shared across thousands of people. Every time a new entry is made, it gets locked in with the old ones, forming a chain that’s very hard to break. Because no single person owns it, everyone can trust it.
 
-- Best balance of clarity, depth, and examples (Bitcoin, Walmart, healthcare).
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/6d4ac5ff-3c39-4da7-b264-54c81e714ba1" />
 
-- Might be a little advanced for total beginners due to mention of proof-of-stake & interoperability.
+Uses include:
+1. Cryptocurrencies (e.g., Bitcoin, Ethereum): Digital money that doesn’t need banks.
+2. Supply Chains: Verify whether products are original, organic, or ethically sourced.
+3. NFTs (Non-Fungible Tokens): Blockchain also powers digital collectibles and art. image
 
-### Gemini
+Its uses are wide-ranging: cryptocurrencies such as Bitcoin and Ethereum allow people to send money directly without banks, supply chain tracking verifies whether products are authentic and ethically sourced, and NFTs (non-fungible tokens) enable digital ownership of art and collectibles. Blockchain also supports innovations like micropayments and borderless transfers, making it useful for everyday online transactions.
 
-- Extremely beginner-friendly, quick to read and understand.
+## Meta:
+Blockchain is a distributed ledger where data is stored in linked blocks. Each block contains a hash of the previous one, making the chain tamper-resistant. Transactions are verified by a network of participants (nodes), which eliminates the need for trust in a single party.
 
-- Too shallow for undergraduates — misses depth on consensus, cryptography, and broader challenges.
+<img width="318" height="159" alt="image" src="https://github.com/user-attachments/assets/c9e35893-d1f7-474f-9b66-24329bd422c6" />
 
-### Claude
+Examples:
 
-- Very accurate and detailed. Strong structure (process → features → use cases → challenges). Revised version shines with NFTs and Walmart.
+1. Bitcoin & Ethereum: Digital currencies with global adoption.
+2. Walmart’s Food Tracking: Helps find contaminated goods in seconds instead of days.
+3. Banking: Cross-border payments processed in minutes rather than days. image Its applications extend beyond digital currencies. Walmart, for example, uses blockchain to trace food from farms to shelves, reducing the time needed to identify contaminated products from days to seconds. Banks use it for cross-border payments, cutting processing time from days to minutes. On top of that, advanced solutions like Layer-2 networks (e.g., Lightning Network) are emerging to make blockchain faster and more scalable.
 
-- A bit verbose; could overwhelm students seeking a lighter intro.
+## Claude:
+Blockchain can be imagined as a chain of sealed boxes. Each box (block) stores transaction details, and once added, it cannot be altered, creating permanent trust in the data.
 
-### Meta
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/c50981c6-544f-4623-83f8-7675fc5dcac8" />
 
-- Accurate, simple, and structured. Step 2 includes strong examples (Walmart supply chain, Zug voting).
+Benefits:
 
-- Slightly less depth compared to ChatGPT/Claude — doesn’t touch on future innovations.
+*Transparency: Public blockchains let anyone verify records.
+*Security: Strong encryption prevents hacking.
+*Decentralization: No single authority can manipulate the system.
 
-## Overall Analysis:
+Real-world use cases:
 
-1. ChatGPT → Best for overall usability. Step-by-step format, clear headings, strong examples. Interface is intuitive (feels like a tutor walking you through).
+*Healthcare: Patients control access to their medical records.
+*Food Safety: Companies quickly trace contamination sources.
+*Education: Universities can issue tamper-proof digital certificates. image Real-world examples include healthcare systems that allow patients to control who accesses their records, universities issuing tamper-*proof digital certificates, and governments maintaining corruption-free land ownership records. Companies like Walmart also use it to trace food sources, helping identify contamination issues quickly.
 
-2. Gemini → Best for simplicity. Very clean outputs, but sometimes too barebones. Interface is minimalistic, less guided than ChatGPT.
+## Cohere Command:
 
-3. Claude → Best for depth + structure. Outputs are neatly divided (Step 1, Step 2, word counts), but can feel a bit heavy. Interface is logical but less “friendly.”
+Blockchain is a decentralized digital ledger that links data blocks together in a secure chain. Every transaction is confirmed by the network, removing the need for middlemen such as banks or notaries. Its immutability makes it highly reliable for recording sensitive information.
 
-4. Meta → Best for structured clarity. Simple explanations with real-world examples, but interface tends to be straightforward rather than interactive.
+<img width="311" height="162" alt="image" src="https://github.com/user-attachments/assets/4f9b4524-ef01-4f71-9623-c496f6a8b33d" />
 
-## Conclusion: 
-The comparison shows that ChatGPT and Claude provide the most balanced and detailed summaries, making them well-suited for academic contexts. Gemini and Meta prioritize simplicity and accessibility, which is useful for beginners but limits depth. Ultimately, the choice of model depends on the audience: Gemini and Meta for quick, intuitive learning, and ChatGPT or Claude for more comprehensive understanding.
+Common applications include Bitcoin, which pioneered blockchain-based digital money, and supply chain management, where goods are tracked to ensure authenticity and prevent counterfeits. Some countries are even testing blockchain-based voting systems to enable transparent elections. At the same time, challenges remain: high energy consumption, scalability issues, and regulatory uncertainty. New approaches like Proof of Stake are addressing these concerns, making blockchain more sustainable for the future. image Cohere often brings a critical view—blockchain faces challenges like high energy consumption, scalability limits, and regulatory uncertainty. However, new eco-friendly methods (like Proof of Stake) are addressing these issues.
 
-## Result :
-The Prompt for the above problem statement executed successfully.
+## Algorithm
+
+1. Input a 500-word article on blockchain.
+
+2. Apply different prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) to request summarization across AI platforms.
+
+3. Collect the generated summaries.
+
+4. Compare the clarity, accuracy, and beginner-friendliness of each summary.
+
+5. Revise based on feedback to simplify further and add real-world examples.
+
+6. Document results (Step 1 and Step 2 outputs).
+
+## Result
+
+● Step 1 produced a structured beginner-level summary of blockchain 
+
+● Step 2 improved accessibility by simplifying language and adding real-world examples (Bitcoin, supply chain).
+
+● The experiment shows how prompt refinement (feedback/role-based prompting) enhances clarity and usefulness for undergraduates.
+
+
+
+<img width="1024" height="454" alt="image" src="https://github.com/user-attachments/assets/1fc58f52-a06d-4e84-84f0-d6b14d6fdc1d" />
